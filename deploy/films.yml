@@ -1,0 +1,214 @@
+name: lifelog-films
+
+x-common: &common
+  image: ${FILMS_IMAGE:?не задан в .env}
+  restart: unless-stopped
+  networks: [lifelog]
+  dns:
+    - 1.1.1.1
+    - 9.9.9.9
+  environment: &common-env
+    POSTGRES_HOST: db
+    POSTGRES_PORT: "5432"
+    POSTGRES_USER: postgres
+    POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    ELASTIC_URL: http://elasticsearch:9200
+    ELASTIC_USERNAME: elastic
+    ELASTIC_PASSWORD: ${ELASTIC_PASSWORD}
+    ELASTIC_INDEX_PREFIX: lifelog
+    AUTH_ISSUER: lifelog-auth
+    AUTH_AUDIENCE: lifelog
+    AUTH_INTERNAL_TOKEN: ${INTERNAL_TOKEN}
+    VISITS_ENABLED: ${VISITS_ENABLED:-true}
+    VISITS_AUTH_URL: http://auth:9092
+
+services:
+  films:
+    <<: *common
+    container_name: lifelog-films
+    entrypoint: ["/app/api"]
+    environment:
+      <<: *common-env
+      GIN_MODE: release
+      SERVER_PORT: "9091"
+      GOMEMLIMIT: 400MiB
+      POSTGRES_DATABASE: lifelog_films
+      TMDB_TOKEN: ${TMDB_TOKEN}
+      AUTH_JWKS_URL: http://auth:9092/.well-known/jwks.json
+      AUTH_JWKS_CACHE_TTL: 1h
+      FILMS_AUTH_URL: http://auth:9092
+      FILMS_FOLLOWS_TTL: 1m
+    expose:
+      - "9091"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:9091/api/v1/films?limit=1 >/dev/null || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+    mem_limit: 512m
+
+  auth:
+    <<: *common
+    container_name: lifelog-auth
+    entrypoint: ["/app/auth"]
+    environment:
+      <<: *common-env
+      GIN_MODE: release
+      AUTH_PORT: "9092"
+      GOMEMLIMIT: 200MiB
+      AUTH_POSTGRES_DATABASE: lifelog_auth
+      AUTH_PRIVATE_KEY_PATH: /app/secrets/auth_signing_key.pem
+      AUTH_ACCESS_TTL: 15m
+      AUTH_REFRESH_TTL: 720h
+      AUTH_BOT_USERNAME: ${BOT_USERNAME}
+      AUTH_MERGE_TARGETS: http://trips:8080/api
+      AUTH_FILMS_URL: http://films:9091/api/v1
+      AUTH_SMTP_HOST: ${AUTH_SMTP_HOST}
+      AUTH_SMTP_PORT: ${AUTH_SMTP_PORT}
+      AUTH_SMTP_USER: ${AUTH_SMTP_USER}
+      AUTH_SMTP_PASSWORD: ${AUTH_SMTP_PASSWORD}
+      AUTH_MAIL_FROM: ${AUTH_MAIL_FROM}
+      AUTH_ROTATION_DIR: /rotation
+      AUTH_ROOT_ADMIN_LOGIN: ${ROOT_ADMIN_LOGIN:-admin}
+      AUTH_ROOT_ADMIN_PASSWORD: ${ROOT_ADMIN_PASSWORD:-}
+      AUTH_ROOT_ADMIN_EMAIL: ${ROOT_ADMIN_EMAIL:-}
+      AUTH_ROOT_ADMIN_NAME: ${ROOT_ADMIN_NAME:-}
+    volumes:
+      - auth_keys:/app/secrets
+      - /opt/lifelog/rotation:/rotation
+    ports:
+      - "127.0.0.1:9092:9092"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:9092/healthz >/dev/null || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    mem_limit: 256m
+
+  trips:
+    <<: *common
+    container_name: lifelog-trips
+    entrypoint: ["/app/trips"]
+    environment:
+      <<: *common-env
+      GIN_MODE: release
+      TRIPS_PORT: "8080"
+      GOMEMLIMIT: 300MiB
+      TRIPS_POSTGRES_DATABASE: lifelog
+      TRIPS_PHOTO_PATH: /app/uploads/trip-photos
+      TRIPS_CATEGORIES_INDEX: categories
+      TRIPS_RATES_BASE_URL: https://v6.exchangerate-api.com
+      TRIPS_RATES_API_VERSION: "6"
+      TRIPS_RATES_API_KEY: ${TRIPS_RATES_API_KEY:?not set in .env}
+      TRIPS_RATES_EVERY: 12h
+      AUTH_JWKS_URL: http://auth:9092/.well-known/jwks.json
+      AUTH_JWKS_CACHE_TTL: 1h
+    volumes:
+      - trip_photos:/app/uploads/trip-photos
+    expose:
+      - "8080"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8080/healthz >/dev/null || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+    mem_limit: 384m
+
+  calendar:
+    <<: *common
+    container_name: lifelog-calendar
+    entrypoint: ["/app/calendar"]
+    environment:
+      <<: *common-env
+      GIN_MODE: release
+      CALENDAR_PORT: "9093"
+      GOMEMLIMIT: 200MiB
+      CALENDAR_POSTGRES_DATABASE: lifelog_calendar
+      CALENDAR_FILMS_URL: http://films:9091/api/v1
+      CALENDAR_AUTH_URL: http://auth:9092
+      CALENDAR_TICK: 1m
+      NOTIFY_URL: http://notify:9095
+      TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN:-}
+      TELEGRAM_API_BASE_URL: ${TELEGRAM_API_BASE_URL:-}
+      TELEGRAM_RELAY_SECRET: ${TELEGRAM_RELAY_SECRET:-}
+      CALENDAR_GOOGLE_CLIENT_ID: ${CALENDAR_GOOGLE_CLIENT_ID:-}
+      CALENDAR_GOOGLE_CLIENT_SECRET: ${CALENDAR_GOOGLE_CLIENT_SECRET:-}
+      CALENDAR_GOOGLE_TOKEN_KEY: ${CALENDAR_GOOGLE_TOKEN_KEY:-}
+      CALENDAR_GOOGLE_SYNC_EVERY: 30m
+      PUBLIC_URL: https://lifel0g.ru
+      AUTH_JWKS_URL: http://auth:9092/.well-known/jwks.json
+      AUTH_JWKS_CACHE_TTL: 1h
+    expose:
+      - "9093"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:9093/healthz >/dev/null || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+    mem_limit: 256m
+
+  notes:
+    <<: *common
+    container_name: lifelog-notes
+    entrypoint: ["/app/notes"]
+    environment:
+      <<: *common-env
+      GIN_MODE: release
+      NOTES_PORT: "9094"
+      GOMEMLIMIT: 100MiB
+      NOTES_POSTGRES_DATABASE: lifelog_notes
+      AUTH_JWKS_URL: http://auth:9092/.well-known/jwks.json
+      AUTH_JWKS_CACHE_TTL: 1h
+    expose:
+      - "9094"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:9094/healthz >/dev/null || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+    mem_limit: 128m
+
+
+  notify:
+    <<: *common
+    container_name: lifelog-notify
+    entrypoint: ["/app/notify"]
+    environment:
+      <<: *common-env
+      GIN_MODE: release
+      NOTIFY_PORT: "9095"
+      GOMEMLIMIT: 100MiB
+      NOTIFY_POSTGRES_DATABASE: lifelog_notify
+      NOTIFY_FCM_CREDENTIALS_FILE: /app/firebase/firebase-admin.json
+      NOTIFY_VAPID_PUBLIC_KEY: ${NOTIFY_VAPID_PUBLIC_KEY:-}
+      NOTIFY_VAPID_PRIVATE_KEY: ${NOTIFY_VAPID_PRIVATE_KEY:-}
+      NOTIFY_VAPID_SUBJECT: ${NOTIFY_VAPID_SUBJECT:-mailto:noreply@lifel0g.ru}
+      PUBLIC_URL: https://lifel0g.ru
+      AUTH_JWKS_URL: http://auth:9092/.well-known/jwks.json
+      AUTH_JWKS_CACHE_TTL: 1h
+    volumes:
+      - /opt/lifelog/secrets/firebase:/app/firebase:ro
+    expose:
+      - "9095"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:9095/healthz >/dev/null || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+    mem_limit: 128m
+
+volumes:
+  auth_keys:
+  trip_photos:
+    external: true
+    name: lifelog-trips_trip_photos
+
+networks:
+  lifelog:
+    external: true

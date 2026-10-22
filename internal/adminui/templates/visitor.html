@@ -1,0 +1,23 @@
+{{define "visitor.html"}}
+{{template "head" .}}
+<h1>Посетитель <code>{{.Visitor}}</code></h1>
+<p class="lead">{{.Day}} · последние {{.Keep}} запросов за день, новые сверху. <a href="{{.Prefix}}/visits?day={{.Day}}">← ко всем за день</a></p>
+{{if .Error}}<p class="bad">{{.Error}}</p>{{end}}
+<div class="scroll">
+<table>
+  <thead><tr><th>Время</th><th>Сервис</th><th>Запрос</th><th>Статус</th><th>мс</th></tr></thead>
+  <tbody>
+  {{range .Requests}}
+  <tr>
+    <td>{{clock .At}}</td>
+    <td>{{.Service}}</td>
+    <td><code>{{.Method}} {{.Path}}</code></td>
+    <td class="{{if ge .Status 500}}s5{{else if ge .Status 400}}s4{{end}}">{{.Status}}</td>
+    <td>{{printf "%.0f" .DurationMS}}</td>
+  </tr>
+  {{end}}
+  </tbody>
+</table>
+</div>
+{{template "foot" .}}
+{{end}}

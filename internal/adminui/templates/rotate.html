@@ -1,0 +1,76 @@
+{{define "rotate.html"}}
+{{template "head" .}}
+<h1>Смена паролей инфраструктуры</h1>
+<p class="lead">Postgres, Elasticsearch, служебный токен, Grafana, pgAdmin и Swagger — одним нажатием. Перед сменой снимается резервная копия, переменные CONFIG в GitLab обновляются сами.</p>
+
+{{if .Error}}<p class="bad">{{.Error}}</p>{{end}}
+{{if .Queued}}<p class="good">Заявка принята. Смена начнётся в течение нескольких секунд, состояние обновляется само.</p>{{end}}
+
+{{if .Disabled}}
+<section>
+  <p class="note">Смена из админки не настроена: у сервиса не задан AUTH_ROTATION_DIR.</p>
+</section>
+{{else}}
+
+{{if .HasSecrets}}
+<section>
+  <h2>Новые значения</h2>
+  <p>Пароли покажутся <strong>один раз</strong> и сразу будут удалены с сервера. Держите менеджер паролей открытым.</p>
+  <form method="post" action="{{.Prefix}}/rotate/reveal">
+    <input type="hidden" name="csrf" value="{{.CSRF}}">
+    <button type="submit">Показать новые пароли</button>
+  </form>
+</section>
+{{end}}
+
+{{with .Pending}}
+<section>
+  <h2>Заявка ждёт запуска</h2>
+  <dl>
+    <dt>Кто</dt><dd>{{.RequestedBy}}</dd>
+    <dt>Когда</dt><dd>{{moment .RequestedAt}}</dd>
+  </dl>
+</section>
+{{end}}
+
+{{with .Status}}
+<section>
+  <h2>Последняя смена</h2>
+  <dl>
+    <dt>Состояние</dt>
+    <dd class="state state-{{.State}}">{{if eq .State "running"}}идёт{{else if eq .State "done"}}завершена{{else}}не прошла целиком{{end}}</dd>
+    {{if .RequestedBy}}<dt>Запустил</dt><dd>{{.RequestedBy}}</dd>{{end}}
+    <dt>Начата</dt><dd>{{moment .StartedAt}}</dd>
+    <dt>Завершена</dt><dd>{{moment .FinishedAt}}</dd>
+    {{if .GitLab}}<dt>CONFIG в GitLab</dt><dd>{{.GitLab}}</dd>{{end}}
+    {{range .Failed}}<dt>Не прошло</dt><dd>{{.}}</dd>{{end}}
+  </dl>
+  {{if eq .State "running"}}<p class="note">Посреди смены админка пропадёт на несколько секунд: rotate.sh пересоздаёт и её сервис. Это нормально — страница вернётся сама.</p>{{end}}
+</section>
+{{end}}
+
+<section>
+  <h2>Запуск</h2>
+  <form method="post" action="{{.Prefix}}/rotate">
+    <input type="hidden" name="csrf" value="{{.CSRF}}">
+    <div class="fields">
+      <div>
+        <label for="confirm">Впишите слово {{.Confirm}}</label>
+        <input id="confirm" name="confirm" autocomplete="off" required>
+      </div>
+    </div>
+    <button type="submit"{{if .Refresh}} disabled{{end}}>Сменить все пароли</button>
+    {{if .Refresh}}<p class="note">Смена уже заказана или идёт — вторую запустить нельзя.</p>{{end}}
+  </form>
+  <p class="note">Сервисы на несколько секунд переподключатся. Ключи внешних сервисов (TMDB, SMTP, Google, токен бота) и ключ подписи токенов не меняются.</p>
+</section>
+
+{{with .Log}}
+<section>
+  <h2>Лог</h2>
+  <pre>{{.}}</pre>
+</section>
+{{end}}
+{{end}}
+{{template "foot" .}}
+{{end}}

@@ -1,0 +1,23 @@
+{{define "login.html"}}
+{{template "head" .}}
+<h1>Админка LifeLog</h1>
+<p class="lead">Вход только для учётных записей с ролью администратора.</p>
+
+<section>
+  {{if .Error}}<p class="bad">{{.Error}}</p>{{end}}
+  <form method="post" action="{{.Prefix}}/login">
+    <div class="fields">
+      <div>
+        <label for="login">Логин</label>
+        <input id="login" name="login" value="{{.Login}}" autocomplete="username" autofocus required>
+      </div>
+      <div>
+        <label for="password">Пароль</label>
+        <input id="password" name="password" type="password" autocomplete="current-password" required>
+      </div>
+    </div>
+    <button type="submit">Войти</button>
+  </form>
+</section>
+{{template "foot" .}}
+{{end}}

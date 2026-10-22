@@ -1,0 +1,142 @@
+{{define "head"}}
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+{{if .Refresh}}<meta http-equiv="refresh" content="5">{{end}}
+<title>LifeLog — админка</title>
+<style>
+:root {
+  color-scheme: light dark;
+  --bg: #f6f6f4;
+  --card: #ffffff;
+  --ink: #1b1b1a;
+  --muted: #6b6b66;
+  --line: #dedbd3;
+  --accent: #2f5d50;
+  --bad: #a33a2c;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #16181a;
+    --card: #1e2124;
+    --ink: #e8e6e1;
+    --muted: #9a9790;
+    --line: #33373b;
+    --accent: #7fb8a4;
+    --bad: #e08172;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+header {
+  border-bottom: 1px solid var(--line);
+  background: var(--card);
+}
+header .row {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header strong { letter-spacing: .01em; }
+nav { display: flex; gap: 16px; margin-left: auto; align-items: center; }
+nav a { color: var(--muted); text-decoration: none; }
+nav a.on, nav a:hover { color: var(--ink); }
+main { max-width: 780px; margin: 0 auto; padding: 24px 20px 64px; }
+h1 { font-size: 21px; margin: 0 0 4px; }
+h2 { font-size: 16px; margin: 0 0 12px; }
+p.lead { color: var(--muted); margin: 0 0 24px; }
+section {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+label { display: block; font-size: 13px; color: var(--muted); margin-bottom: 4px; }
+input {
+  width: 100%;
+  padding: 9px 11px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--bg);
+  color: var(--ink);
+  font: inherit;
+}
+input:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.fields { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; }
+.fields > div { flex: 1 1 180px; }
+button {
+  padding: 9px 18px;
+  border: 0;
+  border-radius: 7px;
+  background: var(--accent);
+  color: var(--card);
+  font: inherit;
+  font-weight: 500;
+  cursor: pointer;
+}
+button:hover { filter: brightness(1.08); }
+button.quiet { background: none; color: var(--muted); padding: 9px 0; }
+.note { color: var(--muted); font-size: 13px; margin: 12px 0 0; }
+.bad, .good {
+  border-left: 3px solid var(--bad);
+  padding: 10px 14px;
+  margin-bottom: 16px;
+  border-radius: 0 7px 7px 0;
+  background: var(--bg);
+}
+.good { border-left-color: var(--accent); }
+dl { display: grid; grid-template-columns: max-content 1fr; gap: 6px 20px; margin: 0; }
+dt { color: var(--muted); font-size: 13px; }
+dd { margin: 0; font-variant-numeric: tabular-nums; }
+pre { margin: 0; white-space: pre-wrap; word-break: break-all; font: 13px/1.45 ui-monospace, "Cascadia Mono", Consolas, monospace; }
+.state { font-weight: 600; }
+.state-running { color: var(--accent); }
+.state-failed { color: var(--bad); }
+.scroll { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; font-variant-numeric: tabular-nums; }
+th { text-align: left; color: var(--muted); font-weight: 500; }
+th, td { padding: 6px 10px 6px 0; border-bottom: 1px solid var(--line); white-space: nowrap; }
+td.ua { white-space: normal; color: var(--muted); max-width: 280px; }
+td.s4 { color: var(--muted); }
+td.s5 { color: var(--bad); font-weight: 600; }
+code { font: 12px ui-monospace, "Cascadia Mono", Consolas, monospace; }
+.bars { display: flex; align-items: flex-end; gap: 3px; height: 120px; }
+.bar { flex: 1; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; height: 100%; text-decoration: none; }
+.bar span { width: 100%; min-height: 2px; background: var(--line); border-radius: 3px 3px 0 0; }
+.bar:hover span, .bar.on span { background: var(--accent); }
+.bar small { font-size: 10px; color: var(--muted); margin-top: 4px; }
+</style>
+</head>
+<body>
+{{if .User}}
+<header><div class="row">
+  <strong>LifeLog</strong>
+  <nav>
+    <a href="{{.Prefix}}/sync">Синхронизация</a>
+    <a href="{{.Prefix}}/password">Пароли</a>
+    <a href="{{.Prefix}}/rotate">Смена паролей</a>
+    <a href="{{.Prefix}}/visits">Посетители</a>
+    <form method="post" action="{{.Prefix}}/logout"><button class="quiet" type="submit">Выйти</button></form>
+  </nav>
+</div></header>
+{{end}}
+<main>
+{{end}}
+
+{{define "foot"}}
+</main>
+</body>
+</html>
+{{end}}

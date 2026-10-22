@@ -1,0 +1,57 @@
+{
+  "id": 1399,
+  "name": "Игра престолов",
+  "original_name": "Game of Thrones",
+  "overview": "Русский синопсис.",
+  "poster_path": "/got.jpg",
+  "first_air_date": "2011-04-17",
+  "last_air_date": "2019-05-19",
+  "next_episode_to_air": null,
+  "episode_run_time": [60, 50],
+  "genres": [
+    {"id": 10765, "name": "НФ и Фэнтези"},
+    {"id": 18, "name": "драма"}
+  ],
+  "popularity": 217.263,
+  "vote_average": 8.5,
+  "vote_count": 27727,
+  "status": "Ended",
+  "type": "Scripted",
+  "in_production": false,
+  "number_of_seasons": 8,
+  "number_of_episodes": 73,
+  "networks": [
+    {"id": 49, "logo_path": "/hbo.png", "name": "HBO", "origin_country": "US"},
+    {"id": 1063, "logo_path": null, "name": "Sky Atlantic", "origin_country": "GB"}
+  ],
+  "created_by": [
+    {"id": 9813, "credit_id": "5256c8c219c2956ff604858a", "name": "Дэвид Бениофф", "original_name": "David Benioff", "gender": 2},
+    {"id": 228068, "credit_id": "552e611e9251413fea000901", "name": "Д. Б. Уайс", "original_name": "D. B. Weiss", "gender": 2}
+  ],
+  "seasons": [
+    {"air_date": "2010-12-05", "episode_count": 300, "id": 3627, "name": "Спецматериалы", "overview": "", "poster_path": "/s0.jpg", "season_number": 0, "vote_average": 0},
+    {"air_date": "2011-04-17", "episode_count": 10, "id": 3624, "name": "Сезон 1", "overview": "Сезон начинается.", "poster_path": "/s1.jpg", "season_number": 1, "vote_average": 8.4},
+    {"air_date": "2019-04-14", "episode_count": 6, "id": 107971, "name": "Сезон 8", "overview": "", "poster_path": null, "season_number": 8, "vote_average": 6.4}
+  ],
+  "aggregate_credits": {
+    "cast": [
+      {"adult": false, "gender": 2, "id": 22970, "known_for_department": "Acting", "name": "Питер Динклэйдж", "original_name": "Peter Dinklage", "popularity": 4.0, "total_episode_count": 73, "roles": [{"credit_id": "5256c8b219c2956ff6047cd8", "character": "Tyrion 'The Halfman' Lannister", "episode_count": 73}], "order": 0},
+      {"adult": false, "gender": 1, "id": 1223786, "known_for_department": "Acting", "name": "Эмилия Кларк", "original_name": "Emilia Clarke", "popularity": 3.0, "total_episode_count": 73, "roles": [{"credit_id": "5256c8af19c2956ff60479f6", "character": "Daenerys Targaryen", "episode_count": 73}], "order": 681},
+      {"adult": false, "gender": 2, "id": 239019, "known_for_department": "Acting", "name": "Кит Харингтон", "original_name": "Kit Harington", "popularity": 2.0, "total_episode_count": 73, "roles": [{"credit_id": "5256c8af19c2956ff6047af6", "character": "Jon Snow", "episode_count": 73}], "order": 5}
+    ],
+    "crew": []
+  },
+  "external_ids": {"imdb_id": "tt0944947", "tvdb_id": 121361, "wikidata_id": "Q23572"},
+  "alternative_titles": {
+    "results": [
+      {"iso_3166_1": "US", "title": "GoT", "type": "common abbreviation"},
+      {"iso_3166_1": "RU", "title": "Игра тронов", "type": ""}
+    ]
+  },
+  "translations": {
+    "translations": [
+      {"iso_3166_1": "US", "iso_639_1": "en", "name": "English", "english_name": "English", "data": {"name": "", "overview": "English overview.", "homepage": "", "tagline": ""}},
+      {"iso_3166_1": "RU", "iso_639_1": "ru", "name": "Pусский", "english_name": "Russian", "data": {"name": "Игра престолов", "overview": "Русский синопсис.", "homepage": "", "tagline": ""}}
+    ]
+  }
+}

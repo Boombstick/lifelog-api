@@ -1,0 +1,2252 @@
+[
+  {
+    "code": "AD",
+    "name": "Andorra",
+    "nameRu": "Андорра",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Andorra"
+  },
+  {
+    "code": "AE",
+    "name": "United Arab Emirates",
+    "nameRu": "ОАЭ",
+    "defaultCurrencyCode": "AED",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Dubai"
+  },
+  {
+    "code": "AF",
+    "name": "Afghanistan",
+    "nameRu": "Афганистан",
+    "defaultCurrencyCode": "AFN",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Kabul"
+  },
+  {
+    "code": "AG",
+    "name": "Antigua and Barbuda",
+    "nameRu": "Антигуа и Барбуда",
+    "defaultCurrencyCode": "XCD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Antigua"
+  },
+  {
+    "code": "AI",
+    "name": "Anguilla",
+    "nameRu": "Ангилья",
+    "defaultCurrencyCode": "XCD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Anguilla"
+  },
+  {
+    "code": "AL",
+    "name": "Albania",
+    "nameRu": "Албания",
+    "defaultCurrencyCode": "ALL",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Tirane"
+  },
+  {
+    "code": "AM",
+    "name": "Armenia",
+    "nameRu": "Армения",
+    "defaultCurrencyCode": "AMD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Yerevan"
+  },
+  {
+    "code": "AO",
+    "name": "Angola",
+    "nameRu": "Ангола",
+    "defaultCurrencyCode": "AOA",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Luanda"
+  },
+  {
+    "code": "AQ",
+    "name": "Antarctica",
+    "nameRu": "Антарктида",
+    "defaultCurrencyCode": "USD",
+    "isMultiCurrency": true,
+    "isMultiTimezone": true,
+    "defaultTimeZone": "Antarctica/McMurdo"
+  },
+  {
+    "code": "AR",
+    "name": "Argentina",
+    "nameRu": "Аргентина",
+    "defaultCurrencyCode": "ARS",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Argentina/Buenos_Aires"
+  },
+  {
+    "code": "AS",
+    "name": "American Samoa",
+    "nameRu": "Американское Самоа",
+    "defaultCurrencyCode": "USD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Pacific/Pago_Pago"
+  },
+  {
+    "code": "AT",
+    "name": "Austria",
+    "nameRu": "Австрия",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Vienna"
+  },
+  {
+    "code": "AU",
+    "name": "Australia",
+    "nameRu": "Австралия",
+    "defaultCurrencyCode": "AUD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": true,
+    "defaultTimeZone": "Australia/Sydney"
+  },
+  {
+    "code": "AW",
+    "name": "Aruba",
+    "nameRu": "Аруба",
+    "defaultCurrencyCode": "AWG",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Aruba"
+  },
+  {
+    "code": "AX",
+    "name": "Åland Islands",
+    "nameRu": "Аландские острова",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Mariehamn"
+  },
+  {
+    "code": "AZ",
+    "name": "Azerbaijan",
+    "nameRu": "Азербайджан",
+    "defaultCurrencyCode": "AZN",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Baku"
+  },
+  {
+    "code": "BA",
+    "name": "Bosnia and Herzegovina",
+    "nameRu": "Босния и Герцеговина",
+    "defaultCurrencyCode": "BAM",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Sarajevo"
+  },
+  {
+    "code": "BB",
+    "name": "Barbados",
+    "nameRu": "Барбадос",
+    "defaultCurrencyCode": "BBD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Barbados"
+  },
+  {
+    "code": "BD",
+    "name": "Bangladesh",
+    "nameRu": "Бангладеш",
+    "defaultCurrencyCode": "BDT",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Dhaka"
+  },
+  {
+    "code": "BE",
+    "name": "Belgium",
+    "nameRu": "Бельгия",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Brussels"
+  },
+  {
+    "code": "BF",
+    "name": "Burkina Faso",
+    "nameRu": "Буркина-Фасо",
+    "defaultCurrencyCode": "XOF",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Ouagadougou"
+  },
+  {
+    "code": "BG",
+    "name": "Bulgaria",
+    "nameRu": "Болгария",
+    "defaultCurrencyCode": "BGN",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Sofia"
+  },
+  {
+    "code": "BH",
+    "name": "Bahrain",
+    "nameRu": "Бахрейн",
+    "defaultCurrencyCode": "BHD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Bahrain"
+  },
+  {
+    "code": "BI",
+    "name": "Burundi",
+    "nameRu": "Бурунди",
+    "defaultCurrencyCode": "BIF",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Bujumbura"
+  },
+  {
+    "code": "BJ",
+    "name": "Benin",
+    "nameRu": "Бенин",
+    "defaultCurrencyCode": "XOF",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Porto-Novo"
+  },
+  {
+    "code": "BL",
+    "name": "Saint Barthélemy",
+    "nameRu": "Сен-Бартелеми",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/St_Barthelemy"
+  },
+  {
+    "code": "BM",
+    "name": "Bermuda",
+    "nameRu": "Бермудские острова",
+    "defaultCurrencyCode": "BMD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Atlantic/Bermuda"
+  },
+  {
+    "code": "BN",
+    "name": "Brunei",
+    "nameRu": "Бруней",
+    "defaultCurrencyCode": "BND",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Brunei"
+  },
+  {
+    "code": "BO",
+    "name": "Bolivia",
+    "nameRu": "Боливия",
+    "defaultCurrencyCode": "BOB",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/La_Paz"
+  },
+  {
+    "code": "BQ",
+    "name": "Caribbean Netherlands",
+    "nameRu": "Карибские Нидерланды",
+    "defaultCurrencyCode": "USD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Kralendijk"
+  },
+  {
+    "code": "BR",
+    "name": "Brazil",
+    "nameRu": "Бразилия",
+    "defaultCurrencyCode": "BRL",
+    "isMultiCurrency": false,
+    "isMultiTimezone": true,
+    "defaultTimeZone": "America/Sao_Paulo"
+  },
+  {
+    "code": "BS",
+    "name": "Bahamas",
+    "nameRu": "Багамские острова",
+    "defaultCurrencyCode": "BSD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Nassau"
+  },
+  {
+    "code": "BT",
+    "name": "Bhutan",
+    "nameRu": "Бутан",
+    "defaultCurrencyCode": "BTN",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Thimphu"
+  },
+  {
+    "code": "BV",
+    "name": "Bouvet Island",
+    "nameRu": "Остров Буве",
+    "defaultCurrencyCode": "NOK",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Oslo"
+  },
+  {
+    "code": "BW",
+    "name": "Botswana",
+    "nameRu": "Ботсвана",
+    "defaultCurrencyCode": "BWP",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Gaborone"
+  },
+  {
+    "code": "BY",
+    "name": "Belarus",
+    "nameRu": "Беларусь",
+    "defaultCurrencyCode": "BYN",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Minsk"
+  },
+  {
+    "code": "BZ",
+    "name": "Belize",
+    "nameRu": "Белиз",
+    "defaultCurrencyCode": "BZD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Belize"
+  },
+  {
+    "code": "CA",
+    "name": "Canada",
+    "nameRu": "Канада",
+    "defaultCurrencyCode": "CAD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": true,
+    "defaultTimeZone": "America/Toronto"
+  },
+  {
+    "code": "CC",
+    "name": "Cocos (Keeling) Islands",
+    "nameRu": "Кокосовые острова",
+    "defaultCurrencyCode": "AUD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Indian/Cocos"
+  },
+  {
+    "code": "CD",
+    "name": "Congo (DRC)",
+    "nameRu": "Конго (ДРК)",
+    "defaultCurrencyCode": "CDF",
+    "isMultiCurrency": false,
+    "isMultiTimezone": true,
+    "defaultTimeZone": "Africa/Kinshasa"
+  },
+  {
+    "code": "CF",
+    "name": "Central African Republic",
+    "nameRu": "Центральноафриканская Республика",
+    "defaultCurrencyCode": "XAF",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Bangui"
+  },
+  {
+    "code": "CG",
+    "name": "Congo (Republic)",
+    "nameRu": "Конго (Республика)",
+    "defaultCurrencyCode": "XAF",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Brazzaville"
+  },
+  {
+    "code": "CH",
+    "name": "Switzerland",
+    "nameRu": "Швейцария",
+    "defaultCurrencyCode": "CHF",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Zurich"
+  },
+  {
+    "code": "CI",
+    "name": "Côte d'Ivoire",
+    "nameRu": "Кот-д'Ивуар",
+    "defaultCurrencyCode": "XOF",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Abidjan"
+  },
+  {
+    "code": "CK",
+    "name": "Cook Islands",
+    "nameRu": "Острова Кука",
+    "defaultCurrencyCode": "NZD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Pacific/Rarotonga"
+  },
+  {
+    "code": "CL",
+    "name": "Chile",
+    "nameRu": "Чили",
+    "defaultCurrencyCode": "CLP",
+    "isMultiCurrency": false,
+    "isMultiTimezone": true,
+    "defaultTimeZone": "America/Santiago"
+  },
+  {
+    "code": "CM",
+    "name": "Cameroon",
+    "nameRu": "Камерун",
+    "defaultCurrencyCode": "XAF",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Douala"
+  },
+  {
+    "code": "CN",
+    "name": "China",
+    "nameRu": "Китай",
+    "defaultCurrencyCode": "CNY",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Shanghai"
+  },
+  {
+    "code": "CO",
+    "name": "Colombia",
+    "nameRu": "Колумбия",
+    "defaultCurrencyCode": "COP",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Bogota"
+  },
+  {
+    "code": "CR",
+    "name": "Costa Rica",
+    "nameRu": "Коста-Рика",
+    "defaultCurrencyCode": "CRC",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Costa_Rica"
+  },
+  {
+    "code": "CU",
+    "name": "Cuba",
+    "nameRu": "Куба",
+    "defaultCurrencyCode": "CUP",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Havana"
+  },
+  {
+    "code": "CV",
+    "name": "Cape Verde",
+    "nameRu": "Кабо-Верде",
+    "defaultCurrencyCode": "CVE",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Atlantic/Cape_Verde"
+  },
+  {
+    "code": "CW",
+    "name": "Curaçao",
+    "nameRu": "Кюрасао",
+    "defaultCurrencyCode": "ANG",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Curacao"
+  },
+  {
+    "code": "CX",
+    "name": "Christmas Island",
+    "nameRu": "Остров Рождества",
+    "defaultCurrencyCode": "AUD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Indian/Christmas"
+  },
+  {
+    "code": "CY",
+    "name": "Cyprus",
+    "nameRu": "Кипр",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Nicosia"
+  },
+  {
+    "code": "CZ",
+    "name": "Czech Republic",
+    "nameRu": "Чехия",
+    "defaultCurrencyCode": "CZK",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Prague"
+  },
+  {
+    "code": "DE",
+    "name": "Germany",
+    "nameRu": "Германия",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Berlin"
+  },
+  {
+    "code": "DJ",
+    "name": "Djibouti",
+    "nameRu": "Джибути",
+    "defaultCurrencyCode": "DJF",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Djibouti"
+  },
+  {
+    "code": "DK",
+    "name": "Denmark",
+    "nameRu": "Дания",
+    "defaultCurrencyCode": "DKK",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Copenhagen"
+  },
+  {
+    "code": "DM",
+    "name": "Dominica",
+    "nameRu": "Доминика",
+    "defaultCurrencyCode": "XCD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Dominica"
+  },
+  {
+    "code": "DO",
+    "name": "Dominican Republic",
+    "nameRu": "Доминиканская Республика",
+    "defaultCurrencyCode": "DOP",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Santo_Domingo"
+  },
+  {
+    "code": "DZ",
+    "name": "Algeria",
+    "nameRu": "Алжир",
+    "defaultCurrencyCode": "DZD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Algiers"
+  },
+  {
+    "code": "EC",
+    "name": "Ecuador",
+    "nameRu": "Эквадор",
+    "defaultCurrencyCode": "USD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": true,
+    "defaultTimeZone": "America/Guayaquil"
+  },
+  {
+    "code": "EE",
+    "name": "Estonia",
+    "nameRu": "Эстония",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Tallinn"
+  },
+  {
+    "code": "EG",
+    "name": "Egypt",
+    "nameRu": "Египет",
+    "defaultCurrencyCode": "EGP",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Cairo"
+  },
+  {
+    "code": "EH",
+    "name": "Western Sahara",
+    "nameRu": "Западная Сахара",
+    "defaultCurrencyCode": "MAD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/El_Aaiun"
+  },
+  {
+    "code": "ER",
+    "name": "Eritrea",
+    "nameRu": "Эритрея",
+    "defaultCurrencyCode": "ERN",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Asmara"
+  },
+  {
+    "code": "ES",
+    "name": "Spain",
+    "nameRu": "Испания",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": true,
+    "defaultTimeZone": "Europe/Madrid"
+  },
+  {
+    "code": "ET",
+    "name": "Ethiopia",
+    "nameRu": "Эфиопия",
+    "defaultCurrencyCode": "ETB",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Addis_Ababa"
+  },
+  {
+    "code": "FI",
+    "name": "Finland",
+    "nameRu": "Финляндия",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Helsinki"
+  },
+  {
+    "code": "FJ",
+    "name": "Fiji",
+    "nameRu": "Фиджи",
+    "defaultCurrencyCode": "FJD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Pacific/Fiji"
+  },
+  {
+    "code": "FK",
+    "name": "Falkland Islands",
+    "nameRu": "Фолклендские острова",
+    "defaultCurrencyCode": "FKP",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Atlantic/Stanley"
+  },
+  {
+    "code": "FM",
+    "name": "Micronesia",
+    "nameRu": "Микронезия",
+    "defaultCurrencyCode": "USD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": true,
+    "defaultTimeZone": "Pacific/Pohnpei"
+  },
+  {
+    "code": "FO",
+    "name": "Faroe Islands",
+    "nameRu": "Фарерские острова",
+    "defaultCurrencyCode": "FOK",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Atlantic/Faroe"
+  },
+  {
+    "code": "FR",
+    "name": "France",
+    "nameRu": "Франция",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": true,
+    "defaultTimeZone": "Europe/Paris"
+  },
+  {
+    "code": "GA",
+    "name": "Gabon",
+    "nameRu": "Габон",
+    "defaultCurrencyCode": "XAF",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Libreville"
+  },
+  {
+    "code": "GB",
+    "name": "United Kingdom",
+    "nameRu": "Великобритания",
+    "defaultCurrencyCode": "GBP",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/London"
+  },
+  {
+    "code": "GD",
+    "name": "Grenada",
+    "nameRu": "Гренада",
+    "defaultCurrencyCode": "XCD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Grenada"
+  },
+  {
+    "code": "GE",
+    "name": "Georgia",
+    "nameRu": "Грузия",
+    "defaultCurrencyCode": "GEL",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Tbilisi"
+  },
+  {
+    "code": "GF",
+    "name": "French Guiana",
+    "nameRu": "Французская Гвиана",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Cayenne"
+  },
+  {
+    "code": "GG",
+    "name": "Guernsey",
+    "nameRu": "Гернси",
+    "defaultCurrencyCode": "GGP",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Guernsey"
+  },
+  {
+    "code": "GH",
+    "name": "Ghana",
+    "nameRu": "Гана",
+    "defaultCurrencyCode": "GHS",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Accra"
+  },
+  {
+    "code": "GI",
+    "name": "Gibraltar",
+    "nameRu": "Гибралтар",
+    "defaultCurrencyCode": "GIP",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Gibraltar"
+  },
+  {
+    "code": "GL",
+    "name": "Greenland",
+    "nameRu": "Гренландия",
+    "defaultCurrencyCode": "DKK",
+    "isMultiCurrency": false,
+    "isMultiTimezone": true,
+    "defaultTimeZone": "America/Nuuk"
+  },
+  {
+    "code": "GM",
+    "name": "Gambia",
+    "nameRu": "Гамбия",
+    "defaultCurrencyCode": "GMD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Banjul"
+  },
+  {
+    "code": "GN",
+    "name": "Guinea",
+    "nameRu": "Гвинея",
+    "defaultCurrencyCode": "GNF",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Conakry"
+  },
+  {
+    "code": "GP",
+    "name": "Guadeloupe",
+    "nameRu": "Гваделупа",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Guadeloupe"
+  },
+  {
+    "code": "GQ",
+    "name": "Equatorial Guinea",
+    "nameRu": "Экваториальная Гвинея",
+    "defaultCurrencyCode": "XAF",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Malabo"
+  },
+  {
+    "code": "GR",
+    "name": "Greece",
+    "nameRu": "Греция",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Athens"
+  },
+  {
+    "code": "GS",
+    "name": "South Georgia and the South Sandwich Islands",
+    "nameRu": "Южная Георгия и Южные Сандвичевы острова",
+    "defaultCurrencyCode": "GBP",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Atlantic/South_Georgia"
+  },
+  {
+    "code": "GT",
+    "name": "Guatemala",
+    "nameRu": "Гватемала",
+    "defaultCurrencyCode": "GTQ",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Guatemala"
+  },
+  {
+    "code": "GU",
+    "name": "Guam",
+    "nameRu": "Гуам",
+    "defaultCurrencyCode": "USD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Pacific/Guam"
+  },
+  {
+    "code": "GW",
+    "name": "Guinea-Bissau",
+    "nameRu": "Гвинея-Бисау",
+    "defaultCurrencyCode": "XOF",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Bissau"
+  },
+  {
+    "code": "GY",
+    "name": "Guyana",
+    "nameRu": "Гайана",
+    "defaultCurrencyCode": "GYD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Guyana"
+  },
+  {
+    "code": "HK",
+    "name": "Hong Kong",
+    "nameRu": "Гонконг",
+    "defaultCurrencyCode": "HKD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Hong_Kong"
+  },
+  {
+    "code": "HM",
+    "name": "Heard Island and McDonald Islands",
+    "nameRu": "Остров Херд и острова Макдональд",
+    "defaultCurrencyCode": "AUD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Indian/Kerguelen"
+  },
+  {
+    "code": "HN",
+    "name": "Honduras",
+    "nameRu": "Гондурас",
+    "defaultCurrencyCode": "HNL",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Tegucigalpa"
+  },
+  {
+    "code": "HR",
+    "name": "Croatia",
+    "nameRu": "Хорватия",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Zagreb"
+  },
+  {
+    "code": "HT",
+    "name": "Haiti",
+    "nameRu": "Гаити",
+    "defaultCurrencyCode": "HTG",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Port-au-Prince"
+  },
+  {
+    "code": "HU",
+    "name": "Hungary",
+    "nameRu": "Венгрия",
+    "defaultCurrencyCode": "HUF",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Budapest"
+  },
+  {
+    "code": "ID",
+    "name": "Indonesia",
+    "nameRu": "Индонезия",
+    "defaultCurrencyCode": "IDR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": true,
+    "defaultTimeZone": "Asia/Jakarta"
+  },
+  {
+    "code": "IE",
+    "name": "Ireland",
+    "nameRu": "Ирландия",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Dublin"
+  },
+  {
+    "code": "IL",
+    "name": "Israel",
+    "nameRu": "Израиль",
+    "defaultCurrencyCode": "ILS",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Jerusalem"
+  },
+  {
+    "code": "IM",
+    "name": "Isle of Man",
+    "nameRu": "Остров Мэн",
+    "defaultCurrencyCode": "IMP",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Isle_of_Man"
+  },
+  {
+    "code": "IN",
+    "name": "India",
+    "nameRu": "Индия",
+    "defaultCurrencyCode": "INR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Kolkata"
+  },
+  {
+    "code": "IO",
+    "name": "British Indian Ocean Territory",
+    "nameRu": "Британская территория в Индийском океане",
+    "defaultCurrencyCode": "USD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Indian/Chagos"
+  },
+  {
+    "code": "IQ",
+    "name": "Iraq",
+    "nameRu": "Ирак",
+    "defaultCurrencyCode": "IQD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Baghdad"
+  },
+  {
+    "code": "IR",
+    "name": "Iran",
+    "nameRu": "Иран",
+    "defaultCurrencyCode": "IRR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Tehran"
+  },
+  {
+    "code": "IS",
+    "name": "Iceland",
+    "nameRu": "Исландия",
+    "defaultCurrencyCode": "ISK",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Atlantic/Reykjavik"
+  },
+  {
+    "code": "IT",
+    "name": "Italy",
+    "nameRu": "Италия",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Rome"
+  },
+  {
+    "code": "JE",
+    "name": "Jersey",
+    "nameRu": "Джерси",
+    "defaultCurrencyCode": "JEP",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Jersey"
+  },
+  {
+    "code": "JM",
+    "name": "Jamaica",
+    "nameRu": "Ямайка",
+    "defaultCurrencyCode": "JMD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Jamaica"
+  },
+  {
+    "code": "JO",
+    "name": "Jordan",
+    "nameRu": "Иордания",
+    "defaultCurrencyCode": "JOD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Amman"
+  },
+  {
+    "code": "JP",
+    "name": "Japan",
+    "nameRu": "Япония",
+    "defaultCurrencyCode": "JPY",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Tokyo"
+  },
+  {
+    "code": "KE",
+    "name": "Kenya",
+    "nameRu": "Кения",
+    "defaultCurrencyCode": "KES",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Nairobi"
+  },
+  {
+    "code": "KG",
+    "name": "Kyrgyzstan",
+    "nameRu": "Киргизия",
+    "defaultCurrencyCode": "KGS",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Bishkek"
+  },
+  {
+    "code": "KH",
+    "name": "Cambodia",
+    "nameRu": "Камбоджа",
+    "defaultCurrencyCode": "KHR",
+    "isMultiCurrency": true,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Phnom_Penh"
+  },
+  {
+    "code": "KI",
+    "name": "Kiribati",
+    "nameRu": "Кирибати",
+    "defaultCurrencyCode": "AUD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": true,
+    "defaultTimeZone": "Pacific/Tarawa"
+  },
+  {
+    "code": "KM",
+    "name": "Comoros",
+    "nameRu": "Коморские острова",
+    "defaultCurrencyCode": "KMF",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Indian/Comoro"
+  },
+  {
+    "code": "KN",
+    "name": "Saint Kitts and Nevis",
+    "nameRu": "Сент-Китс и Невис",
+    "defaultCurrencyCode": "XCD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/St_Kitts"
+  },
+  {
+    "code": "KP",
+    "name": "North Korea",
+    "nameRu": "Северная Корея",
+    "defaultCurrencyCode": "KRW",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Pyongyang"
+  },
+  {
+    "code": "KR",
+    "name": "South Korea",
+    "nameRu": "Южная Корея",
+    "defaultCurrencyCode": "KRW",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Seoul"
+  },
+  {
+    "code": "KW",
+    "name": "Kuwait",
+    "nameRu": "Кувейт",
+    "defaultCurrencyCode": "KWD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Kuwait"
+  },
+  {
+    "code": "KY",
+    "name": "Cayman Islands",
+    "nameRu": "Каймановы острова",
+    "defaultCurrencyCode": "KYD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Cayman"
+  },
+  {
+    "code": "KZ",
+    "name": "Kazakhstan",
+    "nameRu": "Казахстан",
+    "defaultCurrencyCode": "KZT",
+    "isMultiCurrency": false,
+    "isMultiTimezone": true,
+    "defaultTimeZone": "Asia/Almaty"
+  },
+  {
+    "code": "LA",
+    "name": "Laos",
+    "nameRu": "Лаос",
+    "defaultCurrencyCode": "LAK",
+    "isMultiCurrency": true,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Vientiane"
+  },
+  {
+    "code": "LB",
+    "name": "Lebanon",
+    "nameRu": "Ливан",
+    "defaultCurrencyCode": "LBP",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Beirut"
+  },
+  {
+    "code": "LC",
+    "name": "Saint Lucia",
+    "nameRu": "Сент-Люсия",
+    "defaultCurrencyCode": "XCD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/St_Lucia"
+  },
+  {
+    "code": "LI",
+    "name": "Liechtenstein",
+    "nameRu": "Лихтенштейн",
+    "defaultCurrencyCode": "CHF",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Vaduz"
+  },
+  {
+    "code": "LK",
+    "name": "Sri Lanka",
+    "nameRu": "Шри-Ланка",
+    "defaultCurrencyCode": "LKR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Colombo"
+  },
+  {
+    "code": "LR",
+    "name": "Liberia",
+    "nameRu": "Либерия",
+    "defaultCurrencyCode": "LRD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Monrovia"
+  },
+  {
+    "code": "LS",
+    "name": "Lesotho",
+    "nameRu": "Лесото",
+    "defaultCurrencyCode": "LSL",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Maseru"
+  },
+  {
+    "code": "LT",
+    "name": "Lithuania",
+    "nameRu": "Литва",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Vilnius"
+  },
+  {
+    "code": "LU",
+    "name": "Luxembourg",
+    "nameRu": "Люксембург",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Luxembourg"
+  },
+  {
+    "code": "LV",
+    "name": "Latvia",
+    "nameRu": "Латвия",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Riga"
+  },
+  {
+    "code": "LY",
+    "name": "Libya",
+    "nameRu": "Ливия",
+    "defaultCurrencyCode": "LYD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Tripoli"
+  },
+  {
+    "code": "MA",
+    "name": "Morocco",
+    "nameRu": "Марокко",
+    "defaultCurrencyCode": "MAD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Casablanca"
+  },
+  {
+    "code": "MC",
+    "name": "Monaco",
+    "nameRu": "Монако",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Monaco"
+  },
+  {
+    "code": "MD",
+    "name": "Moldova",
+    "nameRu": "Молдова",
+    "defaultCurrencyCode": "MDL",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Chisinau"
+  },
+  {
+    "code": "ME",
+    "name": "Montenegro",
+    "nameRu": "Черногория",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Podgorica"
+  },
+  {
+    "code": "MF",
+    "name": "Saint Martin",
+    "nameRu": "Сен-Мартен",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Marigot"
+  },
+  {
+    "code": "MG",
+    "name": "Madagascar",
+    "nameRu": "Мадагаскар",
+    "defaultCurrencyCode": "MGA",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Indian/Antananarivo"
+  },
+  {
+    "code": "MH",
+    "name": "Marshall Islands",
+    "nameRu": "Маршалловы острова",
+    "defaultCurrencyCode": "USD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": true,
+    "defaultTimeZone": "Pacific/Majuro"
+  },
+  {
+    "code": "MK",
+    "name": "North Macedonia",
+    "nameRu": "Северная Македония",
+    "defaultCurrencyCode": "MKD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Skopje"
+  },
+  {
+    "code": "ML",
+    "name": "Mali",
+    "nameRu": "Мали",
+    "defaultCurrencyCode": "XOF",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Bamako"
+  },
+  {
+    "code": "MM",
+    "name": "Myanmar",
+    "nameRu": "Мьянма",
+    "defaultCurrencyCode": "MMK",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Yangon"
+  },
+  {
+    "code": "MN",
+    "name": "Mongolia",
+    "nameRu": "Монголия",
+    "defaultCurrencyCode": "MNT",
+    "isMultiCurrency": false,
+    "isMultiTimezone": true,
+    "defaultTimeZone": "Asia/Ulaanbaatar"
+  },
+  {
+    "code": "MO",
+    "name": "Macau",
+    "nameRu": "Макао",
+    "defaultCurrencyCode": "MOP",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Macau"
+  },
+  {
+    "code": "MP",
+    "name": "Northern Mariana Islands",
+    "nameRu": "Северные Марианские острова",
+    "defaultCurrencyCode": "USD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Pacific/Saipan"
+  },
+  {
+    "code": "MQ",
+    "name": "Martinique",
+    "nameRu": "Мартиника",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Martinique"
+  },
+  {
+    "code": "MR",
+    "name": "Mauritania",
+    "nameRu": "Мавритания",
+    "defaultCurrencyCode": "MRU",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Nouakchott"
+  },
+  {
+    "code": "MS",
+    "name": "Montserrat",
+    "nameRu": "Монтсеррат",
+    "defaultCurrencyCode": "XCD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Montserrat"
+  },
+  {
+    "code": "MT",
+    "name": "Malta",
+    "nameRu": "Мальта",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Malta"
+  },
+  {
+    "code": "MU",
+    "name": "Mauritius",
+    "nameRu": "Маврикий",
+    "defaultCurrencyCode": "MUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Indian/Mauritius"
+  },
+  {
+    "code": "MV",
+    "name": "Maldives",
+    "nameRu": "Мальдивы",
+    "defaultCurrencyCode": "MVR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Indian/Maldives"
+  },
+  {
+    "code": "MW",
+    "name": "Malawi",
+    "nameRu": "Малави",
+    "defaultCurrencyCode": "MWK",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Blantyre"
+  },
+  {
+    "code": "MX",
+    "name": "Mexico",
+    "nameRu": "Мексика",
+    "defaultCurrencyCode": "MXN",
+    "isMultiCurrency": false,
+    "isMultiTimezone": true,
+    "defaultTimeZone": "America/Mexico_City"
+  },
+  {
+    "code": "MY",
+    "name": "Malaysia",
+    "nameRu": "Малайзия",
+    "defaultCurrencyCode": "MYR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": true,
+    "defaultTimeZone": "Asia/Kuala_Lumpur"
+  },
+  {
+    "code": "MZ",
+    "name": "Mozambique",
+    "nameRu": "Мозамбик",
+    "defaultCurrencyCode": "MZN",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Maputo"
+  },
+  {
+    "code": "NA",
+    "name": "Namibia",
+    "nameRu": "Намибия",
+    "defaultCurrencyCode": "NAD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Windhoek"
+  },
+  {
+    "code": "NC",
+    "name": "New Caledonia",
+    "nameRu": "Новая Каледония",
+    "defaultCurrencyCode": "XPF",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Pacific/Noumea"
+  },
+  {
+    "code": "NE",
+    "name": "Niger",
+    "nameRu": "Нигер",
+    "defaultCurrencyCode": "XOF",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Niamey"
+  },
+  {
+    "code": "NF",
+    "name": "Norfolk Island",
+    "nameRu": "Остров Норфолк",
+    "defaultCurrencyCode": "AUD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Pacific/Norfolk"
+  },
+  {
+    "code": "NG",
+    "name": "Nigeria",
+    "nameRu": "Нигерия",
+    "defaultCurrencyCode": "NGN",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Lagos"
+  },
+  {
+    "code": "NI",
+    "name": "Nicaragua",
+    "nameRu": "Никарагуа",
+    "defaultCurrencyCode": "NIO",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Managua"
+  },
+  {
+    "code": "NL",
+    "name": "Netherlands",
+    "nameRu": "Нидерланды",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Amsterdam"
+  },
+  {
+    "code": "NO",
+    "name": "Norway",
+    "nameRu": "Норвегия",
+    "defaultCurrencyCode": "NOK",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Oslo"
+  },
+  {
+    "code": "NP",
+    "name": "Nepal",
+    "nameRu": "Непал",
+    "defaultCurrencyCode": "NPR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Kathmandu"
+  },
+  {
+    "code": "NR",
+    "name": "Nauru",
+    "nameRu": "Науру",
+    "defaultCurrencyCode": "AUD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Pacific/Nauru"
+  },
+  {
+    "code": "NU",
+    "name": "Niue",
+    "nameRu": "Ниуэ",
+    "defaultCurrencyCode": "NZD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Pacific/Niue"
+  },
+  {
+    "code": "NZ",
+    "name": "New Zealand",
+    "nameRu": "Новая Зеландия",
+    "defaultCurrencyCode": "NZD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": true,
+    "defaultTimeZone": "Pacific/Auckland"
+  },
+  {
+    "code": "OM",
+    "name": "Oman",
+    "nameRu": "Оман",
+    "defaultCurrencyCode": "OMR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Muscat"
+  },
+  {
+    "code": "PA",
+    "name": "Panama",
+    "nameRu": "Панама",
+    "defaultCurrencyCode": "PAB",
+    "isMultiCurrency": true,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Panama"
+  },
+  {
+    "code": "PE",
+    "name": "Peru",
+    "nameRu": "Перу",
+    "defaultCurrencyCode": "PEN",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Lima"
+  },
+  {
+    "code": "PF",
+    "name": "French Polynesia",
+    "nameRu": "Французская Полинезия",
+    "defaultCurrencyCode": "XPF",
+    "isMultiCurrency": false,
+    "isMultiTimezone": true,
+    "defaultTimeZone": "Pacific/Tahiti"
+  },
+  {
+    "code": "PG",
+    "name": "Papua New Guinea",
+    "nameRu": "Папуа-Новая Гвинея",
+    "defaultCurrencyCode": "PGK",
+    "isMultiCurrency": false,
+    "isMultiTimezone": true,
+    "defaultTimeZone": "Pacific/Port_Moresby"
+  },
+  {
+    "code": "PH",
+    "name": "Philippines",
+    "nameRu": "Филиппины",
+    "defaultCurrencyCode": "PHP",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Manila"
+  },
+  {
+    "code": "PK",
+    "name": "Pakistan",
+    "nameRu": "Пакистан",
+    "defaultCurrencyCode": "PKR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Karachi"
+  },
+  {
+    "code": "PL",
+    "name": "Poland",
+    "nameRu": "Польша",
+    "defaultCurrencyCode": "PLN",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Warsaw"
+  },
+  {
+    "code": "PM",
+    "name": "Saint Pierre and Miquelon",
+    "nameRu": "Сен-Пьер и Микелон",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Miquelon"
+  },
+  {
+    "code": "PN",
+    "name": "Pitcairn Islands",
+    "nameRu": "Острова Питкэрн",
+    "defaultCurrencyCode": "NZD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Pacific/Pitcairn"
+  },
+  {
+    "code": "PR",
+    "name": "Puerto Rico",
+    "nameRu": "Пуэрто-Рико",
+    "defaultCurrencyCode": "USD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Puerto_Rico"
+  },
+  {
+    "code": "PS",
+    "name": "Palestine",
+    "nameRu": "Палестина",
+    "defaultCurrencyCode": "ILS",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Gaza"
+  },
+  {
+    "code": "PT",
+    "name": "Portugal",
+    "nameRu": "Португалия",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": true,
+    "defaultTimeZone": "Europe/Lisbon"
+  },
+  {
+    "code": "PW",
+    "name": "Palau",
+    "nameRu": "Палау",
+    "defaultCurrencyCode": "USD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Pacific/Palau"
+  },
+  {
+    "code": "PY",
+    "name": "Paraguay",
+    "nameRu": "Парагвай",
+    "defaultCurrencyCode": "PYG",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Asuncion"
+  },
+  {
+    "code": "QA",
+    "name": "Qatar",
+    "nameRu": "Катар",
+    "defaultCurrencyCode": "QAR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Qatar"
+  },
+  {
+    "code": "RE",
+    "name": "Réunion",
+    "nameRu": "Реюньон",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Indian/Reunion"
+  },
+  {
+    "code": "RO",
+    "name": "Romania",
+    "nameRu": "Румыния",
+    "defaultCurrencyCode": "RON",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Bucharest"
+  },
+  {
+    "code": "RS",
+    "name": "Serbia",
+    "nameRu": "Сербия",
+    "defaultCurrencyCode": "RSD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Belgrade"
+  },
+  {
+    "code": "RU",
+    "name": "Russia",
+    "nameRu": "Россия",
+    "defaultCurrencyCode": "RUB",
+    "isMultiCurrency": false,
+    "isMultiTimezone": true,
+    "defaultTimeZone": "Europe/Moscow"
+  },
+  {
+    "code": "RW",
+    "name": "Rwanda",
+    "nameRu": "Руанда",
+    "defaultCurrencyCode": "RWF",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Kigali"
+  },
+  {
+    "code": "SA",
+    "name": "Saudi Arabia",
+    "nameRu": "Саудовская Аравия",
+    "defaultCurrencyCode": "SAR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Riyadh"
+  },
+  {
+    "code": "SB",
+    "name": "Solomon Islands",
+    "nameRu": "Соломоновы острова",
+    "defaultCurrencyCode": "SBD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Pacific/Guadalcanal"
+  },
+  {
+    "code": "SC",
+    "name": "Seychelles",
+    "nameRu": "Сейшелы",
+    "defaultCurrencyCode": "SCR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Indian/Mahe"
+  },
+  {
+    "code": "SD",
+    "name": "Sudan",
+    "nameRu": "Судан",
+    "defaultCurrencyCode": "SDG",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Khartoum"
+  },
+  {
+    "code": "SE",
+    "name": "Sweden",
+    "nameRu": "Швеция",
+    "defaultCurrencyCode": "SEK",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Stockholm"
+  },
+  {
+    "code": "SG",
+    "name": "Singapore",
+    "nameRu": "Сингапур",
+    "defaultCurrencyCode": "SGD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Singapore"
+  },
+  {
+    "code": "SH",
+    "name": "Saint Helena",
+    "nameRu": "Остров Святой Елены",
+    "defaultCurrencyCode": "SHP",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Atlantic/St_Helena"
+  },
+  {
+    "code": "SI",
+    "name": "Slovenia",
+    "nameRu": "Словения",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Ljubljana"
+  },
+  {
+    "code": "SJ",
+    "name": "Svalbard and Jan Mayen",
+    "nameRu": "Шпицберген и Ян-Майен",
+    "defaultCurrencyCode": "NOK",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Arctic/Longyearbyen"
+  },
+  {
+    "code": "SK",
+    "name": "Slovakia",
+    "nameRu": "Словакия",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Bratislava"
+  },
+  {
+    "code": "SL",
+    "name": "Sierra Leone",
+    "nameRu": "Сьерра-Леоне",
+    "defaultCurrencyCode": "SLE",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Freetown"
+  },
+  {
+    "code": "SM",
+    "name": "San Marino",
+    "nameRu": "Сан-Марино",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/San_Marino"
+  },
+  {
+    "code": "SN",
+    "name": "Senegal",
+    "nameRu": "Сенегал",
+    "defaultCurrencyCode": "XOF",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Dakar"
+  },
+  {
+    "code": "SO",
+    "name": "Somalia",
+    "nameRu": "Сомали",
+    "defaultCurrencyCode": "SOS",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Mogadishu"
+  },
+  {
+    "code": "SR",
+    "name": "Suriname",
+    "nameRu": "Суринам",
+    "defaultCurrencyCode": "SRD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Paramaribo"
+  },
+  {
+    "code": "SS",
+    "name": "South Sudan",
+    "nameRu": "Южный Судан",
+    "defaultCurrencyCode": "SSP",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Juba"
+  },
+  {
+    "code": "ST",
+    "name": "São Tomé and Príncipe",
+    "nameRu": "Сан-Томе и Принсипи",
+    "defaultCurrencyCode": "STN",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Sao_Tome"
+  },
+  {
+    "code": "SV",
+    "name": "El Salvador",
+    "nameRu": "Сальвадор",
+    "defaultCurrencyCode": "USD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/El_Salvador"
+  },
+  {
+    "code": "SX",
+    "name": "Sint Maarten",
+    "nameRu": "Синт-Мартен",
+    "defaultCurrencyCode": "ANG",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Lower_Princes"
+  },
+  {
+    "code": "SY",
+    "name": "Syria",
+    "nameRu": "Сирия",
+    "defaultCurrencyCode": "SYP",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Damascus"
+  },
+  {
+    "code": "SZ",
+    "name": "Eswatini",
+    "nameRu": "Эсватини",
+    "defaultCurrencyCode": "SZL",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Mbabane"
+  },
+  {
+    "code": "TC",
+    "name": "Turks and Caicos Islands",
+    "nameRu": "Теркс и Кайкос",
+    "defaultCurrencyCode": "USD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Grand_Turk"
+  },
+  {
+    "code": "TD",
+    "name": "Chad",
+    "nameRu": "Чад",
+    "defaultCurrencyCode": "XAF",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Ndjamena"
+  },
+  {
+    "code": "TF",
+    "name": "French Southern Territories",
+    "nameRu": "Французские Южные территории",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Indian/Kerguelen"
+  },
+  {
+    "code": "TG",
+    "name": "Togo",
+    "nameRu": "Того",
+    "defaultCurrencyCode": "XOF",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Lome"
+  },
+  {
+    "code": "TH",
+    "name": "Thailand",
+    "nameRu": "Таиланд",
+    "defaultCurrencyCode": "THB",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Bangkok"
+  },
+  {
+    "code": "TJ",
+    "name": "Tajikistan",
+    "nameRu": "Таджикистан",
+    "defaultCurrencyCode": "TJS",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Dushanbe"
+  },
+  {
+    "code": "TK",
+    "name": "Tokelau",
+    "nameRu": "Токелау",
+    "defaultCurrencyCode": "NZD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Pacific/Fakaofo"
+  },
+  {
+    "code": "TL",
+    "name": "Timor-Leste",
+    "nameRu": "Восточный Тимор",
+    "defaultCurrencyCode": "USD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Dili"
+  },
+  {
+    "code": "TM",
+    "name": "Turkmenistan",
+    "nameRu": "Туркменистан",
+    "defaultCurrencyCode": "TMT",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Ashgabat"
+  },
+  {
+    "code": "TN",
+    "name": "Tunisia",
+    "nameRu": "Тунис",
+    "defaultCurrencyCode": "TND",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Tunis"
+  },
+  {
+    "code": "TO",
+    "name": "Tonga",
+    "nameRu": "Тонга",
+    "defaultCurrencyCode": "TOP",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Pacific/Tongatapu"
+  },
+  {
+    "code": "TR",
+    "name": "Turkey",
+    "nameRu": "Турция",
+    "defaultCurrencyCode": "TRY",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Istanbul"
+  },
+  {
+    "code": "TT",
+    "name": "Trinidad and Tobago",
+    "nameRu": "Тринидад и Тобаго",
+    "defaultCurrencyCode": "TTD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Port_of_Spain"
+  },
+  {
+    "code": "TV",
+    "name": "Tuvalu",
+    "nameRu": "Тувалу",
+    "defaultCurrencyCode": "AUD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Pacific/Funafuti"
+  },
+  {
+    "code": "TW",
+    "name": "Taiwan",
+    "nameRu": "Тайвань",
+    "defaultCurrencyCode": "TWD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Taipei"
+  },
+  {
+    "code": "TZ",
+    "name": "Tanzania",
+    "nameRu": "Танзания",
+    "defaultCurrencyCode": "TZS",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Dar_es_Salaam"
+  },
+  {
+    "code": "UA",
+    "name": "Ukraine",
+    "nameRu": "Украина",
+    "defaultCurrencyCode": "UAH",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Kyiv"
+  },
+  {
+    "code": "UG",
+    "name": "Uganda",
+    "nameRu": "Уганда",
+    "defaultCurrencyCode": "UGX",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Kampala"
+  },
+  {
+    "code": "UM",
+    "name": "United States Minor Outlying Islands",
+    "nameRu": "Внешние малые острова США",
+    "defaultCurrencyCode": "USD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": true,
+    "defaultTimeZone": "Pacific/Wake"
+  },
+  {
+    "code": "US",
+    "name": "United States",
+    "nameRu": "США",
+    "defaultCurrencyCode": "USD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": true,
+    "defaultTimeZone": "America/New_York"
+  },
+  {
+    "code": "UY",
+    "name": "Uruguay",
+    "nameRu": "Уругвай",
+    "defaultCurrencyCode": "UYU",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Montevideo"
+  },
+  {
+    "code": "UZ",
+    "name": "Uzbekistan",
+    "nameRu": "Узбекистан",
+    "defaultCurrencyCode": "UZS",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Tashkent"
+  },
+  {
+    "code": "VA",
+    "name": "Vatican City",
+    "nameRu": "Ватикан",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Vatican"
+  },
+  {
+    "code": "VC",
+    "name": "Saint Vincent and the Grenadines",
+    "nameRu": "Сент-Винсент и Гренадины",
+    "defaultCurrencyCode": "XCD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/St_Vincent"
+  },
+  {
+    "code": "VE",
+    "name": "Venezuela",
+    "nameRu": "Венесуэла",
+    "defaultCurrencyCode": "VES",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Caracas"
+  },
+  {
+    "code": "VG",
+    "name": "British Virgin Islands",
+    "nameRu": "Британские Виргинские острова",
+    "defaultCurrencyCode": "USD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/Tortola"
+  },
+  {
+    "code": "VI",
+    "name": "U.S. Virgin Islands",
+    "nameRu": "Виргинские острова США",
+    "defaultCurrencyCode": "USD",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "America/St_Thomas"
+  },
+  {
+    "code": "VN",
+    "name": "Vietnam",
+    "nameRu": "Вьетнам",
+    "defaultCurrencyCode": "VND",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Ho_Chi_Minh"
+  },
+  {
+    "code": "VU",
+    "name": "Vanuatu",
+    "nameRu": "Вануату",
+    "defaultCurrencyCode": "VUV",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Pacific/Efate"
+  },
+  {
+    "code": "WF",
+    "name": "Wallis and Futuna",
+    "nameRu": "Уоллис и Футуна",
+    "defaultCurrencyCode": "XPF",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Pacific/Wallis"
+  },
+  {
+    "code": "WS",
+    "name": "Samoa",
+    "nameRu": "Самоа",
+    "defaultCurrencyCode": "WST",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Pacific/Apia"
+  },
+  {
+    "code": "XK",
+    "name": "Kosovo",
+    "nameRu": "Косово",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Europe/Belgrade"
+  },
+  {
+    "code": "YE",
+    "name": "Yemen",
+    "nameRu": "Йемен",
+    "defaultCurrencyCode": "YER",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Asia/Aden"
+  },
+  {
+    "code": "YT",
+    "name": "Mayotte",
+    "nameRu": "Майотта",
+    "defaultCurrencyCode": "EUR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Indian/Mayotte"
+  },
+  {
+    "code": "ZA",
+    "name": "South Africa",
+    "nameRu": "ЮАР",
+    "defaultCurrencyCode": "ZAR",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Johannesburg"
+  },
+  {
+    "code": "ZM",
+    "name": "Zambia",
+    "nameRu": "Замбия",
+    "defaultCurrencyCode": "ZMW",
+    "isMultiCurrency": false,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Lusaka"
+  },
+  {
+    "code": "ZW",
+    "name": "Zimbabwe",
+    "nameRu": "Зимбабве",
+    "defaultCurrencyCode": "ZWL",
+    "isMultiCurrency": true,
+    "isMultiTimezone": false,
+    "defaultTimeZone": "Africa/Harare"
+  }
+]

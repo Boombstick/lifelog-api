@@ -1,0 +1,50 @@
+{{define "sync.html"}}
+{{template "head" .}}
+<h1>Синхронизация каталога</h1>
+<p class="lead">Импорт фильмов из TMDB за выбранный диапазон лет.</p>
+
+{{if .Error}}<p class="bad">{{.Error}}</p>{{end}}
+{{if .Started}}<p class="good">Прогон запущен. Состояние обновляется само, пока он идёт.</p>{{end}}
+
+<section>
+  <h2>Запуск</h2>
+  <form method="post" action="{{.Prefix}}/sync">
+    <input type="hidden" name="csrf" value="{{.CSRF}}">
+    <div class="fields">
+      <div>
+        <label for="year_from">Год начала</label>
+        <input id="year_from" name="year_from" type="number" min="1888" max="2100" value="{{.YearFrom}}" required>
+      </div>
+      <div>
+        <label for="year_to">Год конца</label>
+        <input id="year_to" name="year_to" type="number" min="1888" max="2100" value="{{.YearTo}}" required>
+      </div>
+    </div>
+    <button type="submit"{{if .Refresh}} disabled{{end}}>Запустить</button>
+    {{if .Refresh}}<p class="note">Прогон уже идёт — второй запустить нельзя.</p>{{end}}
+  </form>
+</section>
+
+{{with .Status}}
+<section>
+  <h2>Состояние</h2>
+  <dl>
+    <dt>Состояние</dt>
+    <dd class="state state-{{.State}}">{{.State}}</dd>
+    {{if .RunID}}<dt>Прогон</dt><dd>{{.RunID}}</dd>{{end}}
+    {{if .YearFrom}}<dt>Годы</dt><dd>{{.YearFrom}}—{{.YearTo}}</dd>{{end}}
+    <dt>Начат</dt><dd>{{moment .StartedAt}}</dd>
+    <dt>Завершён</dt><dd>{{moment .FinishedAt}}</dd>
+    {{range $key, $value := .Stats}}<dt>{{$key}}</dt><dd>{{$value}}</dd>{{end}}
+    {{if .Error}}<dt>Ошибка</dt><dd>{{.Error}}</dd>{{end}}
+  </dl>
+  {{if .IndexStale}}
+  <p class="note">
+    Каталог читается из Elasticsearch, а импорт пишет в Postgres. Пока не выполнен
+    <code>go run ./cmd/indexer</code>, свежих фильмов в выдаче не будет.
+  </p>
+  {{end}}
+</section>
+{{end}}
+{{template "foot" .}}
+{{end}}

@@ -1,0 +1,47 @@
+{{define "visits.html"}}
+{{template "head" .}}
+<h1>Посетители</h1>
+<p class="lead">Анонимно: вместо адреса — хеш с солью дня. Соль удаляется, как только день закончился, и после этого посетителя не связать ни с адресом, ни с другим днём. Хранится 30 дней.</p>
+{{if .Error}}<p class="bad">{{.Error}}</p>{{end}}
+
+{{with .Summary}}
+<section>
+  <h2>Уникальные за день</h2>
+  <div class="bars">
+    {{range .Days}}
+    <a class="bar{{if eq .Day $.Day}} on{{end}}" href="{{$.Prefix}}/visits?day={{.Day}}" title="{{.Day}}: {{.Visitors}} посетителей, {{.Requests}} запросов">
+      <span style="height: {{percent .Visitors $.Summary.Max}}%"></span>
+      <small>{{dayLabel .Day}}</small>
+    </a>
+    {{end}}
+  </div>
+</section>
+{{end}}
+
+{{if .Day}}
+<section>
+  <h2>{{.Day}} · {{len .Visitors}} посетителей · {{.Requests}} запросов</h2>
+  {{if .Visitors}}
+  <div class="scroll">
+  <table>
+    <thead><tr><th>Посетитель</th><th>Запросов</th><th>Первый</th><th>Последний</th><th>Браузер</th></tr></thead>
+    <tbody>
+    {{range .Visitors}}
+    <tr>
+      <td><a href="{{$.Prefix}}/visits/{{.Day}}/{{.Visitor}}"><code>{{.Visitor}}</code></a></td>
+      <td>{{.Requests}}</td>
+      <td>{{clock .FirstSeen}}</td>
+      <td>{{clock .LastSeen}}</td>
+      <td class="ua">{{.UserAgent}}</td>
+    </tr>
+    {{end}}
+    </tbody>
+  </table>
+  </div>
+  {{else}}
+  <p class="note">За этот день посетителей нет.</p>
+  {{end}}
+</section>
+{{end}}
+{{template "foot" .}}
+{{end}}

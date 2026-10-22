@@ -1,0 +1,110 @@
+{{define "shared.html"}}
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>{{.Title}}</title>
+<style>
+:root {
+  color-scheme: light dark;
+  --bg: #f7f6f3;
+  --card: #ffffff;
+  --ink: #1a1a19;
+  --muted: #6d6c66;
+  --line: #e2dfd7;
+  --accent: #7a4a2b;
+  --star: #b8862b;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #141517;
+    --card: #1d1f22;
+    --ink: #e9e7e2;
+    --muted: #98958e;
+    --line: #2e3135;
+    --accent: #d9a077;
+    --star: #d9b54a;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+header { border-bottom: 1px solid var(--line); background: var(--card); }
+header .row { max-width: 760px; margin: 0 auto; padding: 20px; }
+h1 { font-size: 22px; margin: 0 0 4px; letter-spacing: -0.01em; }
+.sub { color: var(--muted); font-size: 14px; }
+main { max-width: 760px; margin: 0 auto; padding: 20px 20px 64px; }
+.film {
+  display: flex;
+  gap: 14px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+}
+.film:last-child { border-bottom: 0; }
+.poster {
+  width: 64px;
+  height: 96px;
+  flex: 0 0 64px;
+  border-radius: 6px;
+  object-fit: cover;
+  background: var(--line);
+}
+.body { min-width: 0; }
+.name { font-weight: 600; }
+.orig, .meta { color: var(--muted); font-size: 14px; }
+.rate {
+  display: inline-block;
+  margin-top: 6px;
+  color: var(--star);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.review { margin-top: 6px; font-size: 15px; }
+.empty { color: var(--muted); padding: 40px 0; text-align: center; }
+footer {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+  color: var(--muted);
+  font-size: 13px;
+}
+footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<header><div class="row">
+  <h1>{{.Heading}}</h1>
+  <div class="sub">{{.Subtitle}}</div>
+</div></header>
+<main>
+{{if .Items}}
+  {{range .Items}}
+  <div class="film">
+    {{if .PosterURL}}<img class="poster" src="{{.PosterURL}}" alt="" loading="lazy">{{else}}<div class="poster"></div>{{end}}
+    <div class="body">
+      <div class="name">{{.Title}}</div>
+      {{if .TitleOrig}}<div class="orig">{{.TitleOrig}}</div>{{end}}
+      <div class="meta">{{.Meta}}</div>
+      {{if .Rate}}<div class="rate">{{.Rate}}/10</div>{{end}}
+      {{if .Description}}<div class="review">«{{.Description}}»</div>{{end}}
+    </div>
+  </div>
+  {{end}}
+{{else}}
+  <div class="empty">В этом списке пока пусто</div>
+{{end}}
+</main>
+<footer>
+  Список открыт по ссылке. Она перестанет работать, если владелец её отзовёт.
+  {{if .Expires}}<br>{{.Expires}}.{{end}}
+  {{if .More}}<br>Показаны первые {{.Shown}} из {{.Total}} — остальное видно в приложении.{{end}}
+</footer>
+</body>
+</html>
+{{end}}

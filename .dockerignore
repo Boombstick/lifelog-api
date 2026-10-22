@@ -1,0 +1,11 @@
+.git
+.gitignore
+secrets/
+*.pem
+config.cfg
+docs/domain.md
+README.md
+deploy/
+out/
+.go/
+.gocache/
